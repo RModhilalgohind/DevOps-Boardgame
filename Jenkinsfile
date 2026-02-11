@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent {lable 'agent-1}
 
  tools {
      jdk 'jdk-17'
